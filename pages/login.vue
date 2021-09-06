@@ -11,7 +11,8 @@
         <input type="password">
         <!-- <button>OK</button> -->
 
-        <a href="recuperar-senha">Recupere sua senha</a>
+        <a href="recuperar-senha">Recupere sua senha</a><br>
+        <a href="cadastro">Cadastrar</a>
 
         <button type="submit">Entrar</button>
 
@@ -21,7 +22,7 @@
 
     </div>
 
-
+ <Footer />
   </main>
 </template>
 

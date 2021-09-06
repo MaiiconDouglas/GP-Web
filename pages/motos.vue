@@ -2,7 +2,10 @@
   <main>
     <Menu />
 
-    <p>Página em construção!.</p>
+   <h2>Em construção</h2>
+
+
+ <Footer />
 
   </main>
 </template>

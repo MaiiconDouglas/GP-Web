@@ -15,7 +15,7 @@
             <img src="assets/image/fachada.jpg" alt="placehold" style="width:650px;">
         </div>
     </div>
-
+      <Footer />
   </main>
 </template>
 

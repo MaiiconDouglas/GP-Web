@@ -24,6 +24,8 @@
                             <!-- <div id="load" class="animar"></div> -->
             </div>
 
+ <Footer />
+
   </main>
 </template>
 

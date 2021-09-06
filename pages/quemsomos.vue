@@ -44,5 +44,7 @@
             <p></p>
     </div>
 
+ <Footer />
+
   </main>
 </template>
