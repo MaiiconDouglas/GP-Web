@@ -2,34 +2,38 @@
   <main>
     <Menu />  <br>
 
+
+
+
+
 <h1 style="text-align:center">DESTAQUE<br></h1>
 
         <div class="flex-container">
 
             <div class="HO1">
-                <a href="honda/xre300yellow.html">
-                <img src="assets/image/xre300yellow.jpeg" alt="placehold" style="width:240px">
+                <a href="xre300yellow">
+                <!-- <img src="src/image/xre300yellow.jpeg" alt="placehold" style="width:240px"> -->
                 <p>Honda XRE 300</p>
                 <p>R$ 19,800</p>
                 </a>
             </div>
             <div class="Y1">
-                <a href="yamaha/fazer250red.html">
-                <img src="assets/image/fazer250red.jpeg" alt="placehold" style="width:240px">
+                <a href="fazer250red">
+                <!-- <img src="src/img/fazer250red.jpeg" alt="placehold" style="width:240px"> -->
                 <p>Yamaha Fazer 250</p>
                 <p>R$ 19,860</p>
                 </a>
             </div>
             <div class="HO1">
-                <a href="honda/cg160titanblue.html">
-                <img src="assets/image/cg160titanblue.jpeg" alt="placehold" style="width:240px">
+                <a href="cg160titanblue">
+                <!-- <img src="src/img/cg160titanblue.jpeg" alt="placehold" style="width:240px"> -->
                 <p>Honda CG160 TITAN </p>
                 <p>R$ 10,190</p>
                 </a>
             </div>
             <div class="Y1">
-                <a href="yamaha/mt09.html">
-                <img src="assets/image/mt09.jpeg" alt="placehold" style="width:240px">
+                <a href="yamaha/mt09">
+                <!-- <img src="src/img/mt09.jpeg" alt="placehold" style="width:240px"> -->
                 <p>Yamaha mt-09</p>
                 <p>R$ 53,290</p>
                 </a>
@@ -38,6 +42,7 @@
 
   </main>
 </template>
+
 
 
 <style>
