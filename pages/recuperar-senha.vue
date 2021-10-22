@@ -2,8 +2,7 @@
   <main>
 
     <Menu />
-
-<p>
+     <br /><br /><br /><br />
 
 <!-- <button id="ativar">Animar</button> -->
             <div id="modal" class="animar">
@@ -17,11 +16,7 @@
                             <label>Confirme a senha</label>
                             <input type="password">
                             <button type="submit">Enviar</button>
-                            <!-- <button>OK</button> -->
-                            <!-- <form method="get" action="/Login.html">
-                                <button type="submit">OK</button>
-                            </form> -->
-                            <!-- <div id="load" class="animar"></div> -->
+
             </div>
 
  <Footer />

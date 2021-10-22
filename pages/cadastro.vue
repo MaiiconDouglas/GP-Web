@@ -4,6 +4,7 @@
          <Menu />
 
       <div id="modal" class="animar">
+
                 <h1>Cadastro</h1><br><br>
                 <input id="field1" type="text" placeholder="Nome"> <br> <br>
 
@@ -32,14 +33,7 @@
                 <input id="field13" type="Logadouro" placeholder="Logadouro"><br> <br>
 
                 <button>Cadastrar</button>
-                <!-- <button>OK</button> -->
-                <!-- <form method="get" action="/Login.html">
-                    <button type="submit">Cadastrar</button>
-                </form> -->
-                <!-- <div id="load" class="animar"></div> -->
 
-
-            <!-- <div id="result"></div> -->
             </div>
 
          <Footer />
