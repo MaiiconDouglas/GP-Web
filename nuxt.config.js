@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'GP Motos | ',
+    title: 'GP Motos | Vendas é Compras de Motos Usadas é Novas.. ',
     htmlAttrs: {
       lang: 'pt-br'
     },
@@ -21,11 +21,15 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-        //  "~/src/assets/css/index.css"
+         "~/src/assets/css/global.css"
   ],
+  scss: [
+    "~/src/assets/scss/global.css"
+],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    "~/src/assets/js/main.js"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

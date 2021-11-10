@@ -1,7 +1,7 @@
 <template>
   <main>
     <Menu />
-
+ <br> <br> <br> <br> <br> <br>
    <!-- <button id="ativar">Animar</button> -->
     <div id="modal" class="animar">
         <h1>Login</h1>
