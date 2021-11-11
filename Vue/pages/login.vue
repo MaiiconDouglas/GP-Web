@@ -2,17 +2,7 @@
   <main>
     <!-- <Menu />  -->
 
-    <br />
-    <br />
-    <br /><br />
-    <br />
-    <br /><br />
-    <br />
-    <br /><br />
-    <br />
-    <br /><br />
-    <br />
-    <br />
+
     <body>
       <div class="container">
         <div class="forms-container">
@@ -45,6 +35,7 @@
                 </a>
               </div>
             </form>
+
 <!-- Registro -->
             <!-- <form action="#" class="sign-up-form">
               <h2 class="title">Inscrever-se</h2>
@@ -114,13 +105,11 @@
         </div>
       </div>
 
-      <script src="~/static/js/app.js"></script>
+      <script src="~/src/assets/js/app.js"></script>
     </body>
 
-    <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
+    <script   src="https://kit.fontawesome.com/64d58efce2.js"   crossorigin="anonymous"    ></script>
+
   </main>
 </template>
 

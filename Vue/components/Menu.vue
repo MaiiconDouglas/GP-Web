@@ -3,6 +3,7 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">GP MOTOS</a>
+            <!-- <a href="index.html"><img src="~/static/img/logo-dark.png" ></a> -->
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
