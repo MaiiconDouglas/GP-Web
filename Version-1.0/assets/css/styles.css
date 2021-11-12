@@ -1,11 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-
-/* CSS */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://unicons.iconscout.com/release/v4.0.0/css/line.css');
-@import url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -13,11 +7,11 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 216;
+    --hue-color: 250; 
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 91%, 46%);
-    --first-color-second: hsl(var(--hue-color),  91%, 46%);
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -32,7 +26,7 @@
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
 
-
+  
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -46,7 +40,7 @@
     --font-semi-bold: 600;
 
     /*========== Margenes Bottom ==========*/
-
+    
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -55,7 +49,6 @@
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
-
 
     /*========== z index ==========*/
     --z-tooltip: 10;
@@ -75,11 +68,11 @@
         --smaller-font-size: .813rem;
     }
 }
-/*
+
 /*========== Variables Dark theme ==========*/
-/* body.dark-theme{ */
+body.dark-theme{
     /* HSL color mode */
-    /* --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%);
@@ -87,13 +80,13 @@
     --container-color: hsl(var(--hue-color), 29%, 16%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-} */
+}
 
 /*========== Button Dark/Light ==========*/
-/* .nav__btns{
+.nav__btns{
     display: flex;
     align-items: center;
-}  */
+}
 
 .change-theme{
     font-size: 1.25rem;
@@ -330,10 +323,10 @@ img{
 .home__description{
     margin-bottom: var(--mb-2);
 }
- /*
+
 .home__scroll{
-   display: none;
-}*/
+    /*display: none;*/
+}
 
 .home__scroll-button{
     color: var(--first-color);

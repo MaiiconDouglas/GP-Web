@@ -1,6 +1,6 @@
 <template>
   <main>
-    <!-- <Menu />  -->
+    <!-- <Menu /> -->
 
 
     <body>
@@ -37,7 +37,7 @@
             </form>
 
 <!-- Registro -->
-            <!-- <form action="#" class="sign-up-form">
+            <form action="#" class="sign-up-form">
               <h2 class="title">Inscrever-se</h2>
 
               <div class="input-field">
@@ -68,7 +68,7 @@
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </div>
-            </form> -->
+            </form>
           </div>
         </div>
 
@@ -87,7 +87,7 @@
             <img src="~/static/img/log.svg" class="image" alt="Entrar" />
           </div>
           <!-- Registro -->
-          <!-- <div class="panel right-panel">
+          <div class="panel right-panel">
             <div class="content">
               <h3>Um de nós ?</h3>
               <p>
@@ -101,39 +101,17 @@
               class="image"
               alt="Registrar"
             />
-          </div> -->
+          </div>
         </div>
       </div>
-
-      <script src="~/src/assets/js/app.js"></script>
-    </body>
+      </body>
 
     <script   src="https://kit.fontawesome.com/64d58efce2.js"   crossorigin="anonymous"    ></script>
-
+   <script src="~/src/js/app.js"></script>
   </main>
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body,
-input {
-  font-family: "Poppins", sans-serif;
-}
-
-/* .container {
-  position: relative;
-  width: 100%;
-  background-color: #fff;
-  min-height: 100vh;
-  overflow: hidden;
-}
 
 .forms-container {
   position: absolute;
@@ -141,7 +119,7 @@ input {
   height: 100%;
   top: 0;
   left: 0;
-} */
+}
 
 .signin-signup {
   position: absolute;
