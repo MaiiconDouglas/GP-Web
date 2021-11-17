@@ -4,11 +4,11 @@
 
 
     <body>
-      <div class="container">
-        <div class="forms-container">
+      <div class="login_container">
+        <div class="forms-login_container">
           <div class="signin-signup">
             <form action="#" class="sign-in-form"><br><br><br>
-              <h2 class="title">Sign in</h2>
+              <h2 class="title">Entrar</h2>
               <div class="input-field">
                 <i class="fas fa-user"></i>
                 <input type="text" placeholder="Username" />
@@ -19,8 +19,9 @@
               </div>
               <input type="submit" value="Login" class="btn solid" />
 
-              <p class="social-text">Ou faça login com plataformas sociais</p>
-              <div class="social-media">
+              <!-- <p class="social-text">Ou faça login com plataformas sociais</p> -->
+
+              <!-- <div class="social-media">
                 <a href="#" class="social-icon">
                   <i class="fab fa-facebook-f"></i>
                 </a>
@@ -33,46 +34,13 @@
                 <a href="#" class="social-icon">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-              </div>
+              </div> -->
             </form>
 
-<!-- Registro -->
-            <form action="#" class="sign-up-form">
-              <h2 class="title">Inscrever-se</h2>
-
-              <div class="input-field">
-                <i class="fas fa-user"></i>
-                <input type="text" placeholder="Username" />
-              </div>
-              <div class="input-field">
-                <i class="fas fa-envelope"></i>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div class="input-field">
-                <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Password" />
-              </div>
-              <input type="submit" class="btn" value="Sign up" />
-              <p class="social-text">Ou inscreva-se em plataformas sociais</p>
-              <div class="social-media">
-                <a href="#" class="social-icon">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-google"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            </form>
           </div>
         </div>
 
-        <div class="panels-container">
+        <div class="panels-login_container">
           <div class="panel left-panel">
             <div class="content">
               <h3>Novo aqui ?</h3>
@@ -80,28 +48,14 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Debitis, ex ratione. Aliquid!
               </p>
-              <button class="btn transparent" id="sign-up-btn">
+              <!-- <button class="btn transparent" id="sign-up-btn">
                 Inscrever-se
-              </button>
+              </button> -->
+              <a href="/cadastro" class="btn transparent" id="sign-up-btn">Inscrever-se</a>
             </div>
             <img src="~/static/img/log.svg" class="image" alt="Entrar" />
           </div>
-          <!-- Registro -->
-          <div class="panel right-panel">
-            <div class="content">
-              <h3>Um de nós ?</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                laboriosam ad deleniti.
-              </p>
-              <button class="btn transparent" id="sign-in-btn">Entrar</button>
-            </div>
-            <img
-              src="~/static/img/register.svg"
-              class="image"
-              alt="Registrar"
-            />
-          </div>
+
         </div>
       </div>
       </body>
@@ -113,7 +67,7 @@
 
 <style scoped>
 
-.forms-container {
+.forms-login_container {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -244,7 +198,7 @@ form.sign-in-form {
 .btn:hover {
   background-color: #4d84e2;
 }
-.panels-container {
+.panels-login_container {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -254,7 +208,7 @@ form.sign-in-form {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.container:before {
+.login_container:before {
   content: "";
   position: absolute;
   height: 2000px;
@@ -327,45 +281,45 @@ form.sign-in-form {
 
 /* ANIMATION */
 
-.container.sign-up-mode:before {
+.login_container.sign-up-mode:before {
   transform: translate(100%, -50%);
   right: 52%;
 }
 
-.container.sign-up-mode .left-panel .image,
-.container.sign-up-mode .left-panel .content {
+.login_container.sign-up-mode .left-panel .image,
+.login_container.sign-up-mode .left-panel .content {
   transform: translateX(-800px);
 }
 
-.container.sign-up-mode .signin-signup {
+.login_container.sign-up-mode .signin-signup {
   left: 25%;
 }
 
-.container.sign-up-mode form.sign-up-form {
+.login_container.sign-up-mode form.sign-up-form {
   opacity: 1;
   z-index: 2;
 }
 
-.container.sign-up-mode form.sign-in-form {
+.login_container.sign-up-mode form.sign-in-form {
   opacity: 0;
   z-index: 1;
 }
 
-.container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content {
+.login_container.sign-up-mode .right-panel .image,
+.login_container.sign-up-mode .right-panel .content {
   transform: translateX(0%);
 }
 
-.container.sign-up-mode .left-panel {
+.login_container.sign-up-mode .left-panel {
   pointer-events: none;
 }
 
-.container.sign-up-mode .right-panel {
+.login_container.sign-up-mode .right-panel {
   pointer-events: all;
 }
 
 @media (max-width: 870px) {
-  .container {
+  .login_container {
     min-height: 800px;
     height: 100vh;
   }
@@ -377,11 +331,11 @@ form.sign-in-form {
   }
 
   .signin-signup,
-  .container.sign-up-mode .signin-signup {
+  .login_container.sign-up-mode .signin-signup {
     left: 50%;
   }
 
-  .panels-container {
+  .panels-login_container {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
   }
@@ -429,7 +383,7 @@ form.sign-in-form {
     font-size: 0.7rem;
   }
 
-  .container:before {
+  .login_container:before {
     width: 1500px;
     height: 1500px;
     transform: translateX(-50%);
@@ -440,19 +394,19 @@ form.sign-in-form {
     transition: 2s ease-in-out;
   }
 
-  .container.sign-up-mode:before {
+  .login_container.sign-up-mode:before {
     transform: translate(-50%, 100%);
     bottom: 32%;
     right: initial;
   }
 
-  .container.sign-up-mode .left-panel .image,
-  .container.sign-up-mode .left-panel .content {
+  .login_container.sign-up-mode .left-panel .image,
+  .login_container.sign-up-mode .left-panel .content {
     transform: translateY(-300px);
   }
 
-  .container.sign-up-mode .right-panel .image,
-  .container.sign-up-mode .right-panel .content {
+  .login_container.sign-up-mode .right-panel .image,
+  .login_container.sign-up-mode .right-panel .content {
     transform: translateY(0px);
   }
 
@@ -461,7 +415,7 @@ form.sign-in-form {
     transform: translateY(300px);
   }
 
-  .container.sign-up-mode .signin-signup {
+  .login_container.sign-up-mode .signin-signup {
     top: 5%;
     transform: translate(-50%, 0);
   }
@@ -478,16 +432,16 @@ form.sign-in-form {
   .panel .content {
     padding: 0.5rem 1rem;
   }
-  .container {
+  .login_container {
     padding: 1.5rem;
   }
 
-  .container:before {
+  .login_container:before {
     bottom: 72%;
     left: 50%;
   }
 
-  .container.sign-up-mode:before {
+  .login_container.sign-up-mode:before {
     bottom: 28%;
     left: 50%;
   }

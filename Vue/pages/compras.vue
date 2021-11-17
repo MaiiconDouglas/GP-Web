@@ -6,7 +6,7 @@
         <header>
              <main>
 
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="~/static/fachada.jpg" class="d-block w-100 carousel-img" alt="Slide COMPRAS">
@@ -38,9 +38,9 @@
                 <span class="visually-hidden">Next</span>
                 </button>
 
-            </div>
+            </div> -->
 
-            <div id="about-area">
+            <div id="about-area"><br><br><br><br><br><br>
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -93,7 +93,7 @@
                             </div>
 
                             <div>
-                            <button type="button" class="btn btn-outline-secondary botao-compras-seletor">Selecionar</button>
+                            <!-- <button type="button" class="btn btn-outline-secondary botao-compras-seletor">Selecionar</button> --><br>
                             </div>
                         </div>
                     </div>

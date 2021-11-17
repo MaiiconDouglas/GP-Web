@@ -12,7 +12,7 @@
             <div><li><a href="#"></a><img src="assets/image/telefone.png" alt="placehold" style="width:20px"> Telefone: (16) 993267279</li></div>
         </ul>
         <div class="imgcontato">
-            <img src="assets/image/fachada.jpg" alt="placehold" style="width:650px;">
+            <img src="~/static/fachada.jpg" alt="placehold" style="width:650px;">
         </div>
     </div>
       <Footer />
