@@ -10,7 +10,7 @@
           <li>
             <a href="https://pt-br.facebook.com/humberto.zakaib.507"
               ><img
-                src="~/static/social/facebook.png"
+                src="/static/social/facebook.png"
                 alt="placehold"
                 style="width: 20px"
               />

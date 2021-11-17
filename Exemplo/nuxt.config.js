@@ -1,7 +1,6 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -31,11 +30,15 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/global',
+         "~/src/assets/css/global.css"
   ],
+//   scss: [
+//     "~/src/assets/scss/global.css"
+// ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // "~/src/assets/js/main.js"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -49,29 +52,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/i18n'
   ],
-
-  i18n: {
-    strategy: 'no_prefix',
-    detectBrowserLanguage: {
-      useCookie: true,
-    },
-    locales: [
-      {
-        code: 'en-US',
-        file: 'en-US.js',
-        name: 'English'
-      },
-      {
-        code: 'pt-BR',
-        file: 'pt-BR.js',
-        name: 'Português'
-      }
-    ],
-    langDir: 'locales',
-    defaultLocale: 'pt-BR'
-  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
