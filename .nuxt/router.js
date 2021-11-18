@@ -6,12 +6,12 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _12075f28 = () => interopDefault(import('..\\pages\\cadastro.vue' /* webpackChunkName: "pages/cadastro" */))
 const _013d3f16 = () => interopDefault(import('..\\pages\\compras.vue' /* webpackChunkName: "pages/compras" */))
-const _28fc6eb9 = () => interopDefault(import('..\\pages\\compras_.vue' /* webpackChunkName: "pages/compras_" */))
 const _959789fe = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
 const _3d0bfaea = () => interopDefault(import('..\\pages\\empresa.vue' /* webpackChunkName: "pages/empresa" */))
+const _2340c863 = () => interopDefault(import('..\\pages\\fale.vue' /* webpackChunkName: "pages/fale" */))
 const _6e7cb80a = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
 const _ce845f9c = () => interopDefault(import('..\\pages\\recuperar-senha.vue' /* webpackChunkName: "pages/recuperar-senha" */))
-const _d92d0106 = () => interopDefault(import('..\\pages\\venda.vue' /* webpackChunkName: "pages/venda" */))
+const _586d856a = () => interopDefault(import('..\\pages\\xre300yellow.vue' /* webpackChunkName: "pages/xre300yellow" */))
 const _b655d61a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -34,10 +34,6 @@ export const routerOptions = {
     component: _013d3f16,
     name: "compras"
   }, {
-    path: "/compras_",
-    component: _28fc6eb9,
-    name: "compras_"
-  }, {
     path: "/contact",
     component: _959789fe,
     name: "contact"
@@ -45,6 +41,10 @@ export const routerOptions = {
     path: "/empresa",
     component: _3d0bfaea,
     name: "empresa"
+  }, {
+    path: "/fale",
+    component: _2340c863,
+    name: "fale"
   }, {
     path: "/login",
     component: _6e7cb80a,
@@ -54,9 +54,9 @@ export const routerOptions = {
     component: _ce845f9c,
     name: "recuperar-senha"
   }, {
-    path: "/venda",
-    component: _d92d0106,
-    name: "venda"
+    path: "/xre300yellow",
+    component: _586d856a,
+    name: "xre300yellow"
   }, {
     path: "/",
     component: _b655d61a,

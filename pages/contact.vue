@@ -1,25 +1,53 @@
 <template>
   <main>
+		<h1 class= "text-center">Nossos Contato </h1>
 
-    <h1>
 
-      <strong
-        >
-        <a href="https://www.facebook.com/">
-          <!-- <img src="../static/icons/icons8-facebook.svg" alt="Facebook" /> -->
-        </a>
-        <a href="https://www.instagram.com//">
-          <!-- <img src="../static/icons/icons8-instagram.svg" alt="instagram" /> -->
-        </a>
-        <a href="https://www.youtube.com/">
-          <!-- <img
-            src="../static/icons/icons8-reproduzir-youtube.svg"
-            alt="YouTube"
-          /> -->
-        </a>
-      </strong>
-    </h1>
+ <div class="contatos">
+        <ul>
+            <div><li><a href="https://pt-br.facebook.com/humberto.zakaib.507"><img src="static/social/facebook.png" alt="placehold" style="width:20px"> Facebook</a></li></div>
+            <div><li><a href="#"></a><img src="static/social/whatsapp.png" alt="placehold" style="width:20px"> WhatsApp: (16) 993267279</li></div>
+            <div><li><a href="#"></a><img src="static/social/telefone.png" alt="placehold" style="width:20px"> Telefone: (16) 993267279</li></div>
+        </ul>
 
+    </div>
+    	<b-carousel
+				class="m-5"
+				id="carousel-1"
+				v-model="slide"
+				:interval="4000"
+				controls
+
+				img-height="450"
+				img-width="1920"
+				style="text-shadow: 1px 1px 2px #333;"
+				@sliding-start="onSlideStart"
+				@sliding-end="onSlideEnd"
+			>
+				<b-carousel-slide>
+					<template #img>
+					<img
+							class="d-block img-fluid mx-auto"
+							height="300"
+							width="900"
+							src="../static/motos/fachada.jpg"
+								alt="Fachada"
+						>
+					</template>
+				</b-carousel-slide>
+
+				<b-carousel-slide>
+					<template #img>
+						<img
+							class="d-block img-fluid mx-auto"
+							height="300"
+							width="900"
+							src="../static/motos/fachada.jpg"
+							alt="Fachada"
+						>
+					</template>
+				</b-carousel-slide>
+			</b-carousel>
 
   </main>
 </template>
@@ -52,7 +80,9 @@ h1 {
   margin-top: 15px;
   text-align: center;
 }
-
+li {
+  list-style-type: none;
+}
 strong {
   color: var(--secondary-color);
 }

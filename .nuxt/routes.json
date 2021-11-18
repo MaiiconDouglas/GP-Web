@@ -3,63 +3,54 @@
     "name": "cadastro",
     "path": "/cadastro",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\cadastro.vue",
-    "chunkName": "pages/cadastro",
-    "_name": "_12075f28"
+    "chunkName": "pages/cadastro"
   },
   {
     "name": "compras",
     "path": "/compras",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras.vue",
-    "chunkName": "pages/compras",
-    "_name": "_013d3f16"
-  },
-  {
-    "name": "compras_",
-    "path": "/compras_",
-    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras_.vue",
-    "chunkName": "pages/compras_",
-    "_name": "_28fc6eb9"
+    "chunkName": "pages/compras"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_959789fe"
+    "chunkName": "pages/contact"
   },
   {
     "name": "empresa",
     "path": "/empresa",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\empresa.vue",
-    "chunkName": "pages/empresa",
-    "_name": "_3d0bfaea"
+    "chunkName": "pages/empresa"
+  },
+  {
+    "name": "fale",
+    "path": "/fale",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\fale.vue",
+    "chunkName": "pages/fale"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_6e7cb80a"
+    "chunkName": "pages/login"
   },
   {
     "name": "recuperar-senha",
     "path": "/recuperar-senha",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\recuperar-senha.vue",
-    "chunkName": "pages/recuperar-senha",
-    "_name": "_ce845f9c"
+    "chunkName": "pages/recuperar-senha"
   },
   {
-    "name": "venda",
-    "path": "/venda",
-    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\venda.vue",
-    "chunkName": "pages/venda",
-    "_name": "_d92d0106"
+    "name": "xre300yellow",
+    "path": "/xre300yellow",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\xre300yellow.vue",
+    "chunkName": "pages/xre300yellow"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b655d61a"
+    "chunkName": "pages/index"
   }
 ]

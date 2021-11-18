@@ -59,7 +59,7 @@
             </b-nav-item-dropdown>
 
 
-            <b-nav-item-dropdown :text="$t('menu.language')" class="nav-link dropdown" left>
+            <!-- <b-nav-item-dropdown :text="$t('menu.language')" class="nav-link dropdown" left>
                 <b-dropdown-item
                   href="#"
                   v-for="locale of availableLocales"
@@ -68,7 +68,7 @@
                 >
                   {{ locale.name }}
                 </b-dropdown-item>
-              </b-nav-item-dropdown>
+              </b-nav-item-dropdown> -->
                  </b-navbar-nav>
         </b-collapse>
       </b-container>

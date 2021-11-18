@@ -83,7 +83,7 @@
           >
             <div class="d-flex align-items-center  justify-content-center">
               <b-link
-                href="/"
+                href="xre300yellow"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="card-link"
