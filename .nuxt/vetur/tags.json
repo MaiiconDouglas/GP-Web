@@ -1,8 +1,8 @@
 {
-  "Header": {
-    "description": "Auto imported from components/Header/index.vue"
-  },
   "Footer": {
     "description": "Auto imported from components/Footer/index.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header/index.vue"
   }
 }
