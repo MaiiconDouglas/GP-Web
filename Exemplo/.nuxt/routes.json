@@ -1,0 +1,65 @@
+[
+  {
+    "name": "cadastro",
+    "path": "/cadastro",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\cadastro.vue",
+    "chunkName": "pages/cadastro",
+    "_name": "_12075f28"
+  },
+  {
+    "name": "compras",
+    "path": "/compras",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras.vue",
+    "chunkName": "pages/compras",
+    "_name": "_013d3f16"
+  },
+  {
+    "name": "Destaques",
+    "path": "/Destaques",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\Destaques.vue",
+    "chunkName": "pages/Destaques",
+    "_name": "_3381b852"
+  },
+  {
+    "name": "fale",
+    "path": "/fale",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\fale.vue",
+    "chunkName": "pages/fale",
+    "_name": "_2340c863"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_6e7cb80a"
+  },
+  {
+    "name": "motos",
+    "path": "/motos",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\motos.vue",
+    "chunkName": "pages/motos",
+    "_name": "_86149ad2"
+  },
+  {
+    "name": "quemsomos",
+    "path": "/quemsomos",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\quemsomos.vue",
+    "chunkName": "pages/quemsomos",
+    "_name": "_5fe735ec"
+  },
+  {
+    "name": "recuperar-senha",
+    "path": "/recuperar-senha",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\recuperar-senha.vue",
+    "chunkName": "pages/recuperar-senha",
+    "_name": "_ce845f9c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b655d61a"
+  }
+]

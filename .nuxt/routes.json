@@ -1,0 +1,50 @@
+[
+  {
+    "name": "cadastro",
+    "path": "/cadastro",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\cadastro.vue",
+    "chunkName": "pages/cadastro"
+  },
+  {
+    "name": "compras",
+    "path": "/compras",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras.vue",
+    "chunkName": "pages/compras"
+  },
+  {
+    "name": "compras_",
+    "path": "/compras_",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras_.vue",
+    "chunkName": "pages/compras_"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "empresa",
+    "path": "/empresa",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\empresa.vue",
+    "chunkName": "pages/empresa"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "recuperar-senha",
+    "path": "/recuperar-senha",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\recuperar-senha.vue",
+    "chunkName": "pages/recuperar-senha"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
