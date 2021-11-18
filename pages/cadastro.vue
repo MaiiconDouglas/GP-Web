@@ -1,11 +1,11 @@
 <template>
   <main>
-     <body>
+     <body><br><br><br><br><br><br>
       <div class="cadastro_container">
         <div class="forms-cadastro_container">
           <div class="signin-signup">
             <form action="#" class="sign-in-form">
-
+<br><br><br><br><br><br>
               <h2 class="title">Cadastrar</h2>
 
               <div class="input-field">
@@ -35,7 +35,7 @@
         </div>
 
       </div>
-    </body>
+    </body><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"

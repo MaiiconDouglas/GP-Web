@@ -3,54 +3,63 @@
     "name": "cadastro",
     "path": "/cadastro",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\cadastro.vue",
-    "chunkName": "pages/cadastro"
+    "chunkName": "pages/cadastro",
+    "_name": "_12075f28"
   },
   {
     "name": "compras",
     "path": "/compras",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras.vue",
-    "chunkName": "pages/compras"
+    "chunkName": "pages/compras",
+    "_name": "_013d3f16"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_959789fe"
   },
   {
     "name": "empresa",
     "path": "/empresa",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\empresa.vue",
-    "chunkName": "pages/empresa"
+    "chunkName": "pages/empresa",
+    "_name": "_3d0bfaea"
   },
   {
     "name": "fale",
     "path": "/fale",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\fale.vue",
-    "chunkName": "pages/fale"
+    "chunkName": "pages/fale",
+    "_name": "_2340c863"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_6e7cb80a"
   },
   {
     "name": "recuperar-senha",
     "path": "/recuperar-senha",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\recuperar-senha.vue",
-    "chunkName": "pages/recuperar-senha"
+    "chunkName": "pages/recuperar-senha",
+    "_name": "_ce845f9c"
   },
   {
     "name": "xre300yellow",
     "path": "/xre300yellow",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\xre300yellow.vue",
-    "chunkName": "pages/xre300yellow"
+    "chunkName": "pages/xre300yellow",
+    "_name": "_586d856a"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b655d61a"
   }
 ]

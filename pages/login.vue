@@ -55,11 +55,11 @@
           </div>
 
         </div> -->
-      </div>
+      </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       </body>
 
     <script   src="https://kit.fontawesome.com/64d58efce2.js"   crossorigin="anonymous"    ></script>
-   <script src="~/src/js/app.js"></script>
+
   </main>
 </template>
 
