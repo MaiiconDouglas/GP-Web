@@ -1,17 +1,10 @@
 <template>
   <main>
-    <div>
-      <!-- <b-img
-        src="~/static/images/fatec2.jpg"
-        fluid-grow
-        alt="Fluid-grow image"
-        class="img-banner"
-      ></b-img> -->
-    </div>
+
     <h1>
-      Acompanhe a
+
       <strong
-        >Fatec Matão:
+        >
         <a href="https://www.facebook.com/">
           <!-- <img src="../static/icons/icons8-facebook.svg" alt="Facebook" /> -->
         </a>
@@ -26,11 +19,6 @@
         </a>
       </strong>
     </h1>
-    <hr />
-
-    <hr />
-
-    <!-- Form -->
 
 
   </main>

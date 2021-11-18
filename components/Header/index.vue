@@ -44,16 +44,16 @@
 
 
   <b-nav-item-dropdown :text="$t('menu.login.title')" class="nav-link dropdown" left>
-              <b-dropdown-item href="/" target="_blank" rel="noopener noreferrer">
+              <b-dropdown-item href="login" target="_blank" rel="noopener noreferrer">
                 {{ $t('menu.login.serviceOne') }}
               </b-dropdown-item>
 
-              <b-dropdown-item href="/" target="_blank" rel="noopener noreferrer">
+              <b-dropdown-item href="cadastro" target="_blank" rel="noopener noreferrer">
                 {{ $t('menu.login.serviceTwo') }}
               </b-dropdown-item>
 
 
-              <b-dropdown-item href="/" target="_blank" rel="noopener noreferrer">
+              <b-dropdown-item href="recuperar-senha" target="_blank" rel="noopener noreferrer">
                 {{ $t('menu.login.serviceTree') }}
               </b-dropdown-item>
             </b-nav-item-dropdown>
@@ -72,7 +72,7 @@
                  </b-navbar-nav>
         </b-collapse>
       </b-container>
-    </b-navbar>
+    </b-navbar>    <hr />
   </header>
 </template>
 
