@@ -29,9 +29,16 @@ export default {
       accessButton: 'Saber Mais',
 
       compras: 'Comprar',
-      comprarDesc: 'Fique por dentro de todos nossos destaques exclusivoss!',
-      newsTitleCompras: 'HONDA XJ6 2013',
-      newsPrecoCompras: 'R$ 19,800',
+      comprarDesc: '  Os mais diversos modelos de motos disponíveis para comprar!',
+      newsTitleNova1: 'HONDA XJ6 2013',
+      newsPrecoCompras: '',
+      newsTitleNova2: 'HONDA XJ6 2013',
+      newsTitleNova3: 'Yamaha FAZER 2018',
+      newsTitleNova4: 'HONDA BIZ 125 2015',
+      newsTitleNova5: 'HONDA FAZER ABS 2020',
+      newsTitleNova6: 'YAMAHA XT 660R 2014',
+
+      accessButtonSaber: 'Saber Mais',
     },
 
 

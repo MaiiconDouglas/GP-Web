@@ -3,48 +3,56 @@
     "name": "cadastro",
     "path": "/cadastro",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\cadastro.vue",
-    "chunkName": "pages/cadastro"
+    "chunkName": "pages/cadastro",
+    "_name": "_12075f28"
   },
   {
     "name": "compras",
     "path": "/compras",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras.vue",
-    "chunkName": "pages/compras"
-  },
-  {
-    "name": "compras_",
-    "path": "/compras_",
-    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\compras_.vue",
-    "chunkName": "pages/compras_"
+    "chunkName": "pages/compras",
+    "_name": "_013d3f16"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_959789fe"
   },
   {
     "name": "empresa",
     "path": "/empresa",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\empresa.vue",
-    "chunkName": "pages/empresa"
+    "chunkName": "pages/empresa",
+    "_name": "_3d0bfaea"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_6e7cb80a"
   },
   {
     "name": "recuperar-senha",
     "path": "/recuperar-senha",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\recuperar-senha.vue",
-    "chunkName": "pages/recuperar-senha"
+    "chunkName": "pages/recuperar-senha",
+    "_name": "_ce845f9c"
+  },
+  {
+    "name": "venda",
+    "path": "/venda",
+    "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\venda.vue",
+    "chunkName": "pages/venda",
+    "_name": "_d92d0106"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Developer\\\\GP-Web\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b655d61a"
   }
 ]
